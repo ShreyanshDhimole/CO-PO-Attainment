@@ -1,0 +1,96 @@
+{
+  "course_details": {
+    "department": "Information Technology",
+    "course_name": "Computer Networks",
+    "semester": 5
+  },
+
+  "course_outcomes": [
+    {
+      "id": "CO1",
+      "statement": "Describe computer networks and concepts of layered approach"
+    },
+    {
+      "id": "CO2",
+      "statement": "Explain the functionality and protocols of data link layer."
+    },
+    {
+      "id": "CO3",
+      "statement": "Describe the functionality and protocols of network layer."
+    },
+    {
+        "id": "CO4",
+        "statement":"Describe transport layer protocols."
+    },
+    {
+        "id":"CO5",
+        "statement":"Relate application layer protocols in real world."
+    },
+    {
+        "id":"CO6",
+        "statement":"Implement socket programming."
+    }
+  ],
+
+  "co_po_mapping": {
+    "CO1": {"PO1": 3, "PO2": 2, "PO3": 0, "PO4": 0, "PO5": 1, "PO6": 0, "PO7": 0, "PO8": 0, "PO9": 0, "PO10": 0, "PO11": 0}, 
+    "CO2": {"PO1": 2, "PO2": 3, "PO3": 1, "PO4": 0, "PO5": 0, "PO6": 0, "PO7": 0, "PO8": 0, "PO9": 0, "PO10": 0, "PO11": 0}
+},
+
+  "syllabus": [
+    {
+      "unit": "Unit 1",
+      "topics":
+        "Introduction to networks, network v/s distributed systems, Network hardware: broadcast, multicast, peer to peer and point to point. Introduction to LAN, MAN, WAN. Network software: protocol hierarchies, network architecture, protocol stack, Reference models: OSI, TCP/IP reference models, maximum data rate of a channel, transmission media, Switching: circuit, message, and packet switching. Virtual circuits v/s datagram subnets, sockets, DNS, HTTP."
+    },
+     {
+      "unit": "Unit 2",
+      "topics":"Data link layer: framing, error detection, error correction codes. Link layer protocols: simplex, simplex stop and wait, simplex protocol for noisy channel, sliding window, one bit sliding window, go back n, selective repeat, example layers: HDLC, SLIP, PPP."   
+     },
+     {
+      "unit": "Unit 3",
+      "topics":"Channel allocation: static, dynamic, Multiple access protocols: pure ALOHA slotted ALOHA, persistent and non-persistent CSMA and CSMA/CD. Collision free protocols: bitmap, binary countdown, limited contention protocol, adaptive tree walk protocol. IEEE 802.1, IEEE 802.2, IEEE 802.3, IEEE 802.4, IEEE 802.5, IEEE 802.6 standards, spanning tree, Interconnections: hubs, link layer switches."   
+     },
+     {
+      "unit": "Unit 4",
+      "topics":"Network layer design issues, IPv4 protocol overview, IPv4 packet structure, IPv addressing, subnetting, supernetting, introduction to CIDR, ARP/RARP, ICMP. Optimality principle, Routing algorithms: shortest path, flooding, distance vector, link state, hierarchical, traffic shaping: leaky bucket, token bucket. Internetworking: Concatenated virtual circuits, connectionless inter networking, NAT, Internetwork routing. Fragmentation: transparent and non-transparent fragmentation."   
+     },
+     {
+      "unit": "Unit 5",
+      "topics":"Introduction to Transport layer services, Connectionless transport: UDP, UDP segment structure, Connection oriented transport: TCP, TCP segment structure, RTT estimation, flow control, TCP connection management, Email, file transfer protocols, remote access applications, introduction to firewalls."   
+     }
+
+  ],
+  "questions": [
+  {
+    "id": "Q1",
+    "text": "Compare circuit, packet, message switching",
+    "co": "CO1",
+    "marks": 4
+  },
+  {
+    "id": "Q2",
+    "text": "Explain sliding window protocol",
+    "co": "CO2",
+    "marks": 4
+  },
+  {
+    "id": "Q3",
+    "text": "Discuss subnetting",
+    "co": "CO3",
+    "marks": 4
+  },
+  {
+    "id": "Q4",
+    "text": "Compare TCP vs UDP",
+    "co": "CO4",
+    "marks": 4
+  },
+  {
+    "id": "Q5",
+    "text": "Describe socket API calls",
+    "co": "CO6",
+    "marks": 4
+  }
+]
+}
